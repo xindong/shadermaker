@@ -325,7 +325,7 @@ cindy-plugin/          page.js (page entry) · main.js (plugin backend) · manif
 
 ## 📜 Versions
 
-See [CHANGELOG.md](CHANGELOG.md) for changes in each version. To publish a release, merge the version and changelog updates into `main`, then push the matching `vX.Y.Z` tag to the `xindong` remote (for example, `git push xindong v1.8.1`). GitHub Actions builds the Cindy plugin and creates or updates the GitHub Release with the `.cindy` package and its SHA-256 checksum. The repository is at [github.com/xindong/shadermaker](https://github.com/xindong/shadermaker), with `main` as the default branch.
+See [CHANGELOG.md](CHANGELOG.md) for changes in each version. To publish a release, merge the version and changelog updates into `main`, then push the matching `vX.Y.Z` tag to the `xindong` remote (for example, `git push xindong v1.8.1`). If you do not already have this remote, add it once with `git remote add xindong https://github.com/xindong/shadermaker.git`. GitHub Actions builds the Cindy plugin and creates or updates the GitHub Release with the `.cindy` package and its SHA-256 checksum. The repository is at [github.com/xindong/shadermaker](https://github.com/xindong/shadermaker), with `main` as the default branch.
 
 ## 🙏 Third-party assets
 

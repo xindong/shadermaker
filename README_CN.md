@@ -321,7 +321,7 @@ cindy-plugin/        page.js（页面入口）· main.js（插件后台）· man
 
 ## 📜 版本
 
-每个版本的变化见 **[CHANGELOG.md](CHANGELOG.md)**。先将版本与更新说明合入 `main`，再把对应的 `vX.Y.Z` 标签推送到 `xindong` remote（例如 `git push xindong v1.8.1`）。GitHub Actions 会构建 Cindy 插件、生成 `.cindy` 包和 SHA-256 校验文件，并创建或更新 GitHub Release。仓库在 [github.com/xindong/shadermaker](https://github.com/xindong/shadermaker)，默认分支 `main`。
+每个版本的变化见 **[CHANGELOG.md](CHANGELOG.md)**。先将版本与更新说明合入 `main`，再把对应的 `vX.Y.Z` 标签推送到 `xindong` remote（例如 `git push xindong v1.8.1`）。如果本地还没有这个 remote，请先添加一次：`git remote add xindong https://github.com/xindong/shadermaker.git`。GitHub Actions 会构建 Cindy 插件、生成 `.cindy` 包和 SHA-256 校验文件，并创建或更新 GitHub Release。仓库在 [github.com/xindong/shadermaker](https://github.com/xindong/shadermaker)，默认分支 `main`。
 
 ## 🙏 第三方资源
 
