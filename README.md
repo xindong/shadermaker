@@ -15,7 +15,7 @@ Realistic PBR · stylized NPR · Teardown-style voxels. Switch rendering styles 
 
 <br>
 
-[Download the latest Cindy plugin](https://github.com/rozen630/ShaderMaker/releases/latest) · [Changelog](CHANGELOG.md)
+[Download the latest Cindy plugin](https://github.com/xindong/shadermaker/releases/latest) · [Changelog](CHANGELOG.md)
 
 <br>
 
@@ -325,7 +325,7 @@ cindy-plugin/          page.js (page entry) · main.js (plugin backend) · manif
 
 ## 📜 Versions
 
-See [CHANGELOG.md](CHANGELOG.md) for changes in each version. To publish a release, update the version in `package.json` and add its notes to `CHANGELOG.md`, then push the matching `vX.Y.Z` tag. GitHub Actions builds the Cindy plugin and creates or updates the GitHub Release with the `.cindy` package and its SHA-256 checksum. The repository is at [github.com/rozen630/ShaderMaker](https://github.com/rozen630/ShaderMaker), with `main` as the default branch.
+See [CHANGELOG.md](CHANGELOG.md) for changes in each version. To publish a release, merge the version and changelog updates into `main`, then push the matching `vX.Y.Z` tag to the `xindong` remote (for example, `git push xindong v1.8.1`). GitHub Actions builds the Cindy plugin and creates or updates the GitHub Release with the `.cindy` package and its SHA-256 checksum. The repository is at [github.com/xindong/shadermaker](https://github.com/xindong/shadermaker), with `main` as the default branch.
 
 ## 🙏 Third-party assets
 

@@ -15,7 +15,7 @@
 
 <br>
 
-[下载最新 Cindy 插件包](https://github.com/rozen630/ShaderMaker/releases/latest) · [版本变化](CHANGELOG.md)
+[下载最新 Cindy 插件包](https://github.com/xindong/shadermaker/releases/latest) · [版本变化](CHANGELOG.md)
 
 <br>
 
@@ -321,7 +321,7 @@ cindy-plugin/        page.js（页面入口）· main.js（插件后台）· man
 
 ## 📜 版本
 
-每个版本的变化见 **[CHANGELOG.md](CHANGELOG.md)**。发布时更新 `package.json` 版本和 `CHANGELOG.md` 对应说明，再推送匹配的 `vX.Y.Z` 标签。GitHub Actions 会构建 Cindy 插件、生成 `.cindy` 包和 SHA-256 校验文件，并创建或更新 GitHub Release。仓库在 [github.com/rozen630/ShaderMaker](https://github.com/rozen630/ShaderMaker)，默认分支 `main`。
+每个版本的变化见 **[CHANGELOG.md](CHANGELOG.md)**。先将版本与更新说明合入 `main`，再把对应的 `vX.Y.Z` 标签推送到 `xindong` remote（例如 `git push xindong v1.8.1`）。GitHub Actions 会构建 Cindy 插件、生成 `.cindy` 包和 SHA-256 校验文件，并创建或更新 GitHub Release。仓库在 [github.com/xindong/shadermaker](https://github.com/xindong/shadermaker)，默认分支 `main`。
 
 ## 🙏 第三方资源
 
